@@ -13,3 +13,6 @@
     background-attachment: fixed;
 }
 
+.hidden {
+    display: none;
+}

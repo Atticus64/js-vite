@@ -13,7 +13,7 @@
 .icons-container {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .icon-big {
@@ -25,9 +25,31 @@
     cursor: pointer;
 }
 
-.icon-big.vanilla:hover {
+.icon-big.js:hover {
     filter: drop-shadow(0 0 2em #f7df1eaa);
 }
+
+.icon-big.py:hover {
+    filter: drop-shadow(0 0 2em #5996ebd5);
+}
+
+.icon-big.types:hover {
+    filter: drop-shadow(0 0 2em #1e92f7aa);
+}
+
+.icon-big.git:hover {
+    filter: drop-shadow(0 0 2em #f36e02aa);
+}
+
+.icon-big.csharp:hover {
+    filter: drop-shadow(0 0 2em #711ef7aa);
+}
+
+.icon-big.angular:hover {
+    filter: drop-shadow(0 0 2em #f73e1eaa);
+}
+
+
 
 .icon-big:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
