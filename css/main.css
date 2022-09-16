@@ -1,0 +1,51 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    color: #ff4411;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon-big {
+    padding: 1rem;
+    width: 10rem;
+}
+
+.icon-big:hover {
+    cursor: pointer;
+}
+
+.icon-big.vanilla:hover {
+    filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.icon-big:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+
+}
+
+.counter-btn {
+    padding: 1.2rem;
+    background-color: #f71e1eaa;
+    margin: 0.5rem;
+    transition: all 0.5s;
+    border: none;
+}
+
+.counter-btn:hover {
+    cursor: pointer;
+    background-color: #fa8526aa;
+    transform: scale(1.1);
+}
+
+

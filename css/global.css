@@ -1,0 +1,15 @@
+html, body {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    list-style: none;
+}
