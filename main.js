@@ -1,8 +1,8 @@
 
-$ = selector => document.querySelector(selector)
+let $ = selector => document.querySelector(selector)
 
-$button = $('.counter-btn')
-$pythonIcon = $('.py') 
+let $button = $('.counter-btn')
+let $pythonIcon = $('.py') 
 
 $button.addEventListener('click', () => {
   if ($pythonIcon.classList.contains('hidden')){
