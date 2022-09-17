@@ -1,14 +1,14 @@
 
 let $ = selector => document.querySelector(selector)
 
-let $button = $('.counter-btn')
-let $pythonIcon = $('.py') 
+let $toggleBtn = $('.btn-hamburger')
+let $navbar = $('.navbar') 
+let $closeBtn = $('.btn-close')
 
-$button.addEventListener('click', () => {
-  if ($pythonIcon.classList.contains('hidden')){
-    $pythonIcon.classList.toggle('hidden')
-  } else {
-    $pythonIcon.classList.toggle('hidden')
-  }
+$toggleBtn.addEventListener('click', () => {
+    $navbar.classList.toggle('toggle-menu')
+})
 
+$closeBtn.addEventListener('click', () => {
+    $navbar.classList.toggle('toggle-menu')
 })
