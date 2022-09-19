@@ -13,19 +13,27 @@
     background-color: #fff;
     border-radius: 30%;
     padding: .1rem;
+    width: 50px;
     margin: .5rem;
     border: 2px solid rgb(14, 8, 8);
+}
+
+.btn-hamburger:hover{
+    cursor: pointer;
+}
+
+.btn-close:hover{
+    cursor: pointer;
 }
 
 .btn-close {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #fff;
     border-radius: 30%;
     padding: .1rem;
     margin: .5rem;
-    width: 1.7rem;
+    width: 50px;;
 }
 
 .navbar {
@@ -34,7 +42,9 @@
     height: 100%;
     top: 0;
     width: 40vw;
-    background-color: blueviolet;
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     flex-direction: column;
     justify-content: space-evenly;
     z-index: 100;
